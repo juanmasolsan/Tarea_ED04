@@ -12,13 +12,15 @@ package dam_ed04_actividad;
 public class CCuenta {
 
     /**
-     * @return the cuenta
+     * Obtiene el numero o identificador de la cuenta
+     * @return Obtiene el numero o identificador de la cuenta
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
+     * Asigna el numero o identificador de la cuenta
      * @param cuenta the cuenta to set
      */
     public void setCuenta(String cuenta) {
@@ -26,14 +28,16 @@ public class CCuenta {
     }
 
     /**
-     * @return the saldo
+     * Obtiene el saldo de la cuenta
+     * @return el saldo
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * @param saldo the saldo to set
+     * Asigna el saldo de la cuenta
+     * @param saldo el saldo 
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
@@ -46,18 +50,18 @@ public class CCuenta {
     private double tipoInterés;
 
     /**
-     * Constructor sin parametros
+     * Constructor sin parámetros
      */
     public CCuenta()
     {
     }
 
     /**
-     * Constructor con parametros
+     * Constructor con parámetros
      * @param nom Nombre del usuario
      * @param cue Numero de cuenta
      * @param sal Saldo
-     * @param tipo tipo de interes
+     * @param tipo tipo de interés
      */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
@@ -67,7 +71,7 @@ public class CCuenta {
     }
 
     /**
-     * Assigna el nombre de la cuenta
+     * Asigna el nombre de la cuenta
      * @param nom Nuevo nombre de la cuenta
      */
     public void asignarNombre(String nom)
@@ -120,8 +124,8 @@ public class CCuenta {
     }
 
     /**
-     * Obtiene el numero/identificador de la cuenta
-     * @return el numero/identificador de la cuenta
+     * Obtiene el numero o identificador de la cuenta
+     * @return el numero o identificador de la cuenta
      */
     public String obtenerCuenta()
     {
@@ -137,7 +141,7 @@ public class CCuenta {
     }
 
     /**
-     * Assigna el nombre de la cuenta
+     * Asigna el nombre de la cuenta
      * @param nombre El nuevo nombre de la cuenta
      */
     public void setNombre(String nombre) {
@@ -145,16 +149,16 @@ public class CCuenta {
     }
 
     /**
-     * Obtiene el tipo de interes
-     * @return el tipo de interes
+     * Obtiene el tipo de interés
+     * @return el tipo de interés
      */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
     /**
-     * Assigna un nuevo tipo de interes
-     * @param tipoInterés el nuevo tipo de interes
+     * Assigna un nuevo tipo de interés
+     * @param tipoInterés el nuevo tipo de interés
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;

@@ -10,7 +10,12 @@ package dam_ed04_actividad;
  * @author juanma
  */
 public class CCuenta {
-
+    
+    private String nombre;
+    private String cuenta;
+    private double saldo;
+    private double tipoInterés;
+    
     /**
      * Obtiene el numero o identificador de la cuenta
      * @return Obtiene el numero o identificador de la cuenta
@@ -44,10 +49,7 @@ public class CCuenta {
     }
 
 
-    private String nombre;
-    private String cuenta;
-    private double saldo;
-    private double tipoInterés;
+
 
     /**
      * Constructor sin parámetros

@@ -10,10 +10,24 @@ package dam_ed04_actividad;
  * @author juanma
  */
 public class CCuenta {
-    
+    /**
+     * Nombre del usuario 
+     */
     private String nombre;
+    
+    /**
+     * Numero o identificador de la cuenta
+     */
     private String cuenta;
+    
+    /**
+     * Saldo que tiene la cuenta
+     */    
     private double saldo;
+    
+    /**
+     * Tipo de interes de la cuenta
+     */
     private double tipoInterés;
     
     /**
